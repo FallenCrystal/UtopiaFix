@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "twinklefix",
+  "version": "${version}",
+  "name": "TwinkleFix",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/FallenCrystal/TwinkleFix"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/twinklefix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.miaomoe.twinklefix.client.TwinkleFixClient"
+    ],
+    "main": [
+      "net.miaomoe.twinklefix.TwinkleFix"
+    ]
+  },
+  "mixins": [
+    "twinklefix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "trinkets": "3.7.1",
+    "icarus": "1.16"
+  }
+}

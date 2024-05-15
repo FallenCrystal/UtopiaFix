@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight",
+        "additionaladditions"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_chicken_cuts"
+    },
+    {
+      "item": "farmersdelight:cooked_chicken_cuts"
+    }
+  ],
+  "result": {
+    "item": "additionaladditions:chicken_nugget"
+  }
+}

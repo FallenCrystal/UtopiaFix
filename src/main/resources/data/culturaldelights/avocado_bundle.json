@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "culturaldelights",
+        "croptopia"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "culturaldelights:avocado_bundle"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "croptopia:avocado"
+  }
+}

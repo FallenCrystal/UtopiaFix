@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "net/miaomoe/twinklefix/mixin/ClientConnectionMixin": {
+      "Lnet/minecraft/network/ClientConnection;handlePacket(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/listener/PacketListener;)V": "Lnet/minecraft/class_2535;method_10759(Lnet/minecraft/class_2596;Lnet/minecraft/class_2547;)V",
+      "Lnet/minecraft/network/listener/PacketListener;onDisconnected(Lnet/minecraft/text/Text;)V": "Lnet/minecraft/class_2547;method_10839(Lnet/minecraft/class_2561;)V",
+      "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/packet/Packet;)V": "Lnet/minecraft/class_2535;method_10770(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;)V",
+      "handleDisconnection": "Lnet/minecraft/class_2535;method_10768()V"
+    },
+    "net/miaomoe/twinklefix/mixin/ServerNetworkIoMixin": {
+      "Lnet/minecraft/text/Text;literal(Ljava/lang/String;)Lnet/minecraft/text/MutableText;": "Lnet/minecraft/class_2561;method_43470(Ljava/lang/String;)Lnet/minecraft/class_5250;",
+      "tick": "Lnet/minecraft/class_3242;method_14357()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/miaomoe/twinklefix/mixin/ClientConnectionMixin": {
+        "Lnet/minecraft/network/ClientConnection;handlePacket(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/listener/PacketListener;)V": "Lnet/minecraft/class_2535;method_10759(Lnet/minecraft/class_2596;Lnet/minecraft/class_2547;)V",
+        "Lnet/minecraft/network/listener/PacketListener;onDisconnected(Lnet/minecraft/text/Text;)V": "Lnet/minecraft/class_2547;method_10839(Lnet/minecraft/class_2561;)V",
+        "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/packet/Packet;)V": "Lnet/minecraft/class_2535;method_10770(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;)V",
+        "handleDisconnection": "Lnet/minecraft/class_2535;method_10768()V"
+      },
+      "net/miaomoe/twinklefix/mixin/ServerNetworkIoMixin": {
+        "Lnet/minecraft/text/Text;literal(Ljava/lang/String;)Lnet/minecraft/text/MutableText;": "Lnet/minecraft/class_2561;method_43470(Ljava/lang/String;)Lnet/minecraft/class_5250;",
+        "tick": "Lnet/minecraft/class_3242;method_14357()V"
+      }
+    }
+  }
+}

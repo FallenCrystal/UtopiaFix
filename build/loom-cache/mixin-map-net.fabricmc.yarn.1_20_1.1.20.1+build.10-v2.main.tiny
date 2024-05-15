@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	net/miaomoe/twinklefix/mixin/ClientConnectionMixin	Lnet/minecraft/network/NetworkSide;	side	field_11643
+METHOD	net/miaomoe/twinklefix/mixin/ClientConnectionMixin	()Lnet/minecraft/text/Text;	getDisconnectReason	method_10748

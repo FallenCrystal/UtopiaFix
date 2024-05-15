@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farmersdelight",
+        "candlelight"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "candlelight:tomato_seeds"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:tomato_seeds"
+  }
+}
