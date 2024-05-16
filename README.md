@@ -9,7 +9,7 @@
 ## 🔧 补丁列表
 
  - [修复Icarus模组1.16版本尝试在server-side应用客户端的代码](https://github.com/CatMoe/TwinkleUtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/mixin/IcarusServerFixMixin.java) (最新版结构已更改 不确定是否已修复)
- - [修复即使在创造模式的情况下也无法移除Trinkets插槽中具有绑定诅咒的物品](https://github.com/CatMoe/TwinkleUtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/trinkets/OverwrittenDefaultTrinkets.java) (Backport from [Trinkets@#310](https://github.com/emilyploszaj/trinkets/pull/310))
+ - [修复即使在创造模式的情况下也无法移除Trinkets插槽中具有绑定诅咒的物品](https://github.com/CatMoe/TwinkleUtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/trinkets/OverwrittenDefaultTrinkets.java) (Backport from [Trinkets@#299](https://github.com/emilyploszaj/trinkets/pull/299))
  - [静默断开连接提示](https://github.com/CatMoe/TwinkleUtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/mixin/ClientConnectionMixin.java)
 
 ## 📚 [额外的配方](https://github.com/CatMoe/TwinkleUtopiaFix/tree/main/src/main/resources/data)
@@ -23,7 +23,7 @@
     - [黄油](https://www.mcmod.cn/item/470538.html)  (转换自 [黄油 (Candlelight)](https://www.mcmod.cn/item/695992.html))
     - [番茄](https://www.mcmod.cn/item/470417.html) (转换自 [番茄 (Candlelight)](https://www.mcmod.cn/item/793069.html)) 或 [番茄 (农夫乐事)](https://www.mcmod.cn/item/382033.html))
     - [奶瓶](https://www.mcmod.cn/item/470692.html) x4 (转换自 [奶瓶 (农夫乐事)](https://www.mcmod.cn/item/382040.html))
-    - [米](https://www.mcmod.cn/item/470408.html) (转换自 [稻米](https://www.mcmod.cn/item/382036.html))
+    - [米](https://www.mcmod.cn/item/470408.html) (转换自 [稻米 (农夫乐事)](https://www.mcmod.cn/item/382036.html))
     - [牛油果](https://www.mcmod.cn/item/470437.html) (转换自 [牛油果 (多元乐事)](https://www.mcmod.cn/item/552755.html))
     - [牛油果](https://www.mcmod.cn/item/470437.html) x9 (需要 [牛油果捆 (多元乐事)](https://www.mcmod.cn/item/552754.html))
     - [牛油果树苗](https://www.mcmod.cn/item/470526.html) (转换自 [牛油果树苗 (多元乐事)](https://www.mcmod.cn/item/618128.html))
