@@ -19,7 +19,7 @@ public final class OverwrittenDefaultTrinkets implements Trinket {
     private static final Trinket instance = new OverwrittenDefaultTrinkets();
 
     @SneakyThrows
-    public static void inject() { // 今天教你如何ntr 指定类的final字段的对象 (?
+    public static void inject() {
         // private static final Trinket DEFAULT_TRINKET = new Trinket() {};
         final Field modifyTarget = TrinketsApi.class.getDeclaredField("DEFAULT_TRINKET");
         modifyTarget.setAccessible(true);
