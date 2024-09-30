@@ -5,14 +5,17 @@
 
  - 该项目本名为TwinkleFix而没有"Utopia"字样. 在设置工作区之前克隆此储存库时最好提前重命名文件夹.
  - 部分合成表尽可能遵循等价交换 但可能会降低某些不同模组的相同物品的寻找难度. 如故意为之请自主删除合成表.
+ - 该模组仅适用于 3.0 版本的乌托邦整合包 请更新到 3.2 版本的整合包
+ - 客户端和服务端都需要安装
 
 ## 🔧 补丁列表
 
- - [修复Icarus模组1.16版本尝试在server-side应用客户端的代码](https://github.com/CatMoe/TwinkleUtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/mixin/IcarusServerFixMixin.java) (最新版结构已更改 不确定是否已修复)
- - [修复即使在创造模式的情况下也无法移除Trinkets插槽中具有绑定诅咒的物品](https://github.com/CatMoe/TwinkleUtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/trinkets/OverwrittenDefaultTrinkets.java) (Backport from [Trinkets@#299](https://github.com/emilyploszaj/trinkets/pull/299))
- - [静默断开连接提示](https://github.com/CatMoe/TwinkleUtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/mixin/ClientConnectionMixin.java)
+ - [修复Icarus模组1.16版本尝试在服务端应用客户端的代码](https://github.com/FallenCrystal/UtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/mixin/IcarusServerFixMixin.java) (最新版结构已更改 不确定是否已修复)
+ - [修复即使在创造模式的情况下也无法移除Trinkets插槽中具有绑定诅咒的物品](https://github.com/FallenCrystal/UtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/trinkets/OverwrittenDefaultTrinkets.java) (Backport from [Trinkets@#299](https://github.com/emilyploszaj/trinkets/pull/299))
+ - [静默断开连接提示](https://github.com/FallenCrystal/UtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/mixin/ClientConnectionMixin.java)
+ - [更好的滴答异常断开连接消息](https://github.com/FallenCrystal/UtopiaFix/blob/main/src/main/java/net/miaomoe/twinklefix/mixin/ServerNetworkIoMixin.java)
 
-## 📚 [额外的配方](https://github.com/CatMoe/TwinkleUtopiaFix/tree/main/src/main/resources/data)
+## 📚 [额外的配方](https://github.com/FallenCrystal/UtopiaFix/tree/main/src/main/resources/data)
 
  - [Additional Additions (额外扩展)](https://github.com/Additional-Mods/additionaladditions)
     - [鸡块](https://www.mcmod.cn/item/587237.html) (需要 [熟鸡肉丁 (农夫乐事)](https://www.mcmod.cn/item/382091.html) x2)
